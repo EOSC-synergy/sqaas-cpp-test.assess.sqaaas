@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-russet-dane.sh
-        container: qc.acc_chummy-taupe-quoll
+        - /usr/bin/env sh .sqa/script.skimpy-salmon-bat.sh
+        container: qc.acc_lovely-mauve-spoonbill
   QC.Doc:
     repos:
       gitlab.com/decube83/sqaas-cpp-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-charcoal-crocodile.sh
-        container: qc.doc_cheeky-lilac-quokka
+        - /usr/bin/env sh .sqa/script.muzzy-yellow-dalmatian.sh
+        container: qc.doc_shabby-lavender-albatross
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-fuchsia-tetra.sh
-        container: qc.doc_freaky-ochre-zebra
+        - /usr/bin/env sh .sqa/script.zippy-chartreuse-capuchin.sh
+        container: qc.doc_lousy-chartreuse-wildebeest
       gitlab.com/decube83/sqaas-cpp-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-amber-bison.sh
-        container: qc.doc_nippy-russet-fossa
+        - /usr/bin/env sh .sqa/script.cozy-turquoise-bonobo.sh
+        container: qc.doc_foggy-indigo-robin
   QC.Lic:
     repos:
       gitlab.com/decube83/sqaas-cpp-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-scarlet-rhinoceros.sh
-        container: qc.lic_slaphappy-burgundy-bongo
+        - /usr/bin/env sh .sqa/script.gamy-cerise-cassowary.sh
+        container: qc.lic_freaky-russet-spider
   QC.Sty:
     repos:
       gitlab.com/decube83/sqaas-cpp-test oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-ivory-kiwi.sh
-        container: qc.sty_silly-ecru-avocet
+        - /usr/bin/env sh .sqa/script.lousy-vermilion-capuchin.sh
+        container: qc.sty_snazzy-olivine-elephant
   QC.Ver:
     repos:
       gitlab.com/decube83/sqaas-cpp-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-maroon-slug.sh
-        container: qc.ver_homey-black-cougar
+        - /usr/bin/env sh .sqa/script.woozy-cyan-binturong.sh
+        container: qc.ver_boozy-wisteria-nightingale
 timeout: 5400
