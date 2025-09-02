@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-brass-coral.sh
-        container: qc.acc_blurry-ecru-shrew
+        - /usr/bin/env sh .sqa/script.tasty-sangria-jellyfish.sh
+        container: qc.acc_droopy-peach-mayfly
   QC.Doc:
     repos:
       gitlab.com/decube83/sqaas-cpp-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-olive-affenpinscher.sh
-        container: qc.doc_slaphappy-crimson-budgerigar
+        - /usr/bin/env sh .sqa/script.ugly-brown-peccary.sh
+        container: qc.doc_sunny-cerise-octopus
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-ruby-chicken.sh
-        container: qc.doc_trippy-mustard-vole
+        - /usr/bin/env sh .sqa/script.nerdy-crimson-drever.sh
+        container: qc.doc_snappy-dandelion-wolf
       gitlab.com/decube83/sqaas-cpp-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-chestnut-capybara.sh
-        container: qc.doc_cheeky-razzmatazz-bloodhound
+        - /usr/bin/env sh .sqa/script.leaky-firebrick-mandrill.sh
+        container: qc.doc_shaggy-pear-rottweiler
   QC.Lic:
     repos:
       gitlab.com/decube83/sqaas-cpp-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-persimmon-terrier.sh
-        container: qc.lic_boozy-white-eleuth
+        - /usr/bin/env sh .sqa/script.nerdy-cardinal-bullfrog.sh
+        container: qc.lic_chewy-taupe-caterpillar
   QC.Sty:
     repos:
       gitlab.com/decube83/sqaas-cpp-test oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-lime-mongoose.sh
-        container: qc.sty_wheezy-cobalt-rattlesnake
+        - /usr/bin/env sh .sqa/script.hasty-jade-bee.sh
+        container: qc.sty_shabby-copper-bloodhound
   QC.Ver:
     repos:
       gitlab.com/decube83/sqaas-cpp-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-magnolia-lionfish.sh
-        container: qc.ver_woolly-heliotrope-tapir
+        - /usr/bin/env sh .sqa/script.chummy-razzmatazz-macaque.sh
+        container: qc.ver_lumpy-magnolia-peccary
 timeout: 5400
