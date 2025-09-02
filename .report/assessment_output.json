@@ -3,14 +3,14 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1756807675.0259254
+        "timestamp": 1756809121.4323623
     },
     "repository": [
         {
             "url": "https://gitlab.com/decube83/sqaas-cpp-test",
             "name": "decube83/sqaas-cpp-test",
             "tag": "main",
-            "commit_id": "853977c149bcb973aec78dace1938f665659ed02",
+            "commit_id": "59ef39892cbf4c3c602594d5a7e910675b6cdf99",
             "is_main_repo": true,
             "badge_status": "no_badge"
         }
@@ -46,7 +46,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -98,7 +98,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 180}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -149,7 +149,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 180}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -201,7 +201,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 180}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -250,7 +250,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -292,7 +292,7 @@
                                         "mdl --json  ."
                                     ],
                                     "stdout_text": "[{\"filename\":\"./README.md\",\"line\":3,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"}]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/61/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/61/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -362,8 +362,8 @@
                                     "stdout_command": [
                                         "bandit -f json --quiet  --confidence-level high --severity-level high --recursive  ."
                                     ],
-                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2025-09-02T10:06:26Z\",\n  \"metrics\": {\n    \"./.sqa/run_tests.py\": {\n      \"CONFIDENCE.HIGH\": 3,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 3,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 21,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 3,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 3,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 21,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/79/log?consoleFull"
+                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2025-09-02T10:30:42Z\",\n  \"metrics\": {\n    \"./.sqa/run_tests.py\": {\n      \"CONFIDENCE.HIGH\": 7,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 7,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 6,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 7,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 7,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 6,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/79/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -375,31 +375,31 @@
                             },
                             "data_unstructured": {
                                 "errors": [],
-                                "generated_at": "2025-09-02T10:06:26Z",
+                                "generated_at": "2025-09-02T10:30:42Z",
                                 "metrics": {
                                     "./.sqa/run_tests.py": {
-                                        "CONFIDENCE.HIGH": 3,
+                                        "CONFIDENCE.HIGH": 7,
                                         "CONFIDENCE.LOW": 0,
                                         "CONFIDENCE.MEDIUM": 0,
                                         "CONFIDENCE.UNDEFINED": 0,
                                         "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 3,
+                                        "SEVERITY.LOW": 7,
                                         "SEVERITY.MEDIUM": 0,
                                         "SEVERITY.UNDEFINED": 0,
-                                        "loc": 21,
+                                        "loc": 6,
                                         "nosec": 0,
                                         "skipped_tests": 0
                                     },
                                     "_totals": {
-                                        "CONFIDENCE.HIGH": 3,
+                                        "CONFIDENCE.HIGH": 7,
                                         "CONFIDENCE.LOW": 0,
                                         "CONFIDENCE.MEDIUM": 0,
                                         "CONFIDENCE.UNDEFINED": 0,
                                         "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 3,
+                                        "SEVERITY.LOW": 7,
                                         "SEVERITY.MEDIUM": 0,
                                         "SEVERITY.UNDEFINED": 0,
-                                        "loc": 21,
+                                        "loc": 6,
                                         "nosec": 0,
                                         "skipped_tests": 0
                                     }
@@ -446,8 +446,8 @@
                                     "stdout_command": [
                                         "flake8 ."
                                     ],
-                                    "stdout_text": "./.sqa/run_tests.py:12:80: E501 line too long (92 > 79 characters)\n./.sqa/run_tests.py:21:80: E501 line too long (95 > 79 characters)\n./.sqa/run_tests.py:25:80: E501 line too long (95 > 79 characters)",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/88/log?consoleFull"
+                                    "stdout_text": "./.sqa/run_tests.py:8:80: E501 line too long (97 > 79 characters)",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/88/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -457,7 +457,7 @@
                                 "version": "v4.0",
                                 "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
                             },
-                            "data_unstructured": "./.sqa/run_tests.py:12:80: E501 line too long (92 > 79 characters)\n./.sqa/run_tests.py:21:80: E501 line too long (95 > 79 characters)\n./.sqa/run_tests.py:25:80: E501 line too long (95 > 79 characters)"
+                            "data_unstructured": "./.sqa/run_tests.py:8:80: E501 line too long (97 > 79 characters)"
                         },
                         {
                             "valid": false,
@@ -481,7 +481,7 @@
                                         "oclint  -- -c"
                                     ],
                                     "stdout_text": "LLVM ERROR: CommonOptionsParser: failed to parse command-line arguments. [CommonOptionsParser]: oclint: Not enough positional command line arguments specified!\nMust specify at least 1 positional argument: See: oclint --help\n\nAborted (core dumped)",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/97/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/97/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -534,7 +534,7 @@
                                         "pytest  --json-report  --json-report-indent 4"
                                     ],
                                     "stdout_text": "============================= test session starts ==============================\nplatform linux -- Python 3.9.17, pytest-7.1.3, pluggy-1.2.0\nrootdir: /sqaaas-build/gitlab.com/decube83/sqaas-cpp-test\nplugins: metadata-3.0.0, json-report-1.5.0\ncollected 0 items\n\n--------------------------------- JSON report ----------------------------------\nreport saved to: .report.json\n============================ no tests ran in 0.01s =============================",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -587,7 +587,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/115/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/115/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -630,7 +630,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/115/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/115/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
@@ -673,7 +673,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/6/execution/node/115/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/sqaas-cpp-test.assess.sqaaas/job/main/7/execution/node/115/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/sqaas-cpp-test.assess.sqaaas"
