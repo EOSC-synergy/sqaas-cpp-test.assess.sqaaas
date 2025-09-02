@@ -15,54 +15,54 @@ sqa_criteria:
     repos:
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-ultramarine-indri.sh
-        container: qc.acc_slaphappy-orchid-beetle
+        - /usr/bin/env sh .sqa/script.freaky-indigo-booby.sh
+        container: qc.acc_pretty-wheat-camel
   QC.Doc:
     repos:
       gitlab.com/decube83/sqaas-cpp-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-crimson-affenpinscher.sh
-        container: qc.doc_muzzy-rose-magpie
+        - /usr/bin/env sh .sqa/script.wimpy-cinnamon-bat.sh
+        container: qc.doc_slaphappy-cyan-rattlesnake
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-sapphire-donkey.sh
-        container: qc.doc_thirsty-dandelion-uakari
+        - /usr/bin/env sh .sqa/script.homey-chocolate-peccary.sh
+        container: qc.doc_dorky-grey-spoonbill
       gitlab.com/decube83/sqaas-cpp-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-chartreuse-snake.sh
-        container: qc.doc_sloppy-chartreuse-tarantula
+        - /usr/bin/env sh .sqa/script.shaky-olivine-buzzard.sh
+        container: qc.doc_paltry-mauve-gopher
   QC.Lic:
     repos:
       gitlab.com/decube83/sqaas-cpp-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-chartreuse-booby.sh
-        container: qc.lic_scanty-mustard-maltese
+        - /usr/bin/env sh .sqa/script.skanky-platinum-barnacle.sh
+        container: qc.lic_randy-lime-gecko
   QC.Sec:
     repos:
       gitlab.com/decube83/sqaas-cpp-test bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-puce-zebu.sh
-        container: qc.sec_hasty-smalt-seal
+        - /usr/bin/env sh .sqa/script.shaggy-apricot-woodlouse.sh
+        container: qc.sec_queasy-cerise-markhor
   QC.Sty:
     repos:
       gitlab.com/decube83/sqaas-cpp-test flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-amethyst-scorpion.sh
-        container: qc.sty_dorky-mauve-moorhen
+        - /usr/bin/env sh .sqa/script.snappy-gold-wolf.sh
+        container: qc.sty_scanty-olivine-hedgehog
       gitlab.com/decube83/sqaas-cpp-test oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-persimmon-tamarin.sh
-        container: qc.sty_homey-bistre-akbash
+        - /usr/bin/env sh .sqa/script.sunny-seashell-havanese.sh
+        container: qc.sty_seedy-maroon-ant
   QC.Uni:
     repos:
       gitlab.com/decube83/sqaas-cpp-test pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-red-paradise.sh
-        container: qc.uni_gloppy-bistre-hedgehog
+        - /usr/bin/env sh .sqa/script.muzzy-periwinkle-toucan.sh
+        container: qc.uni_baggy-thistle-emu
   QC.Ver:
     repos:
       gitlab.com/decube83/sqaas-cpp-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-indigo-dollar.sh
-        container: qc.ver_woolly-wisteria-ibis
+        - /usr/bin/env sh .sqa/script.skimpy-mauve-elephant.sh
+        container: qc.ver_tasty-sapphire-wrasse
 timeout: 5400
