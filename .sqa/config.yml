@@ -1,0 +1,52 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: main
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    gitlab.com/decube83/sqaas-cpp-test:
+      branch: main
+      repo: https://gitlab.com/decube83/sqaas-cpp-test
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      gitlab.com/decube83/sqaas-cpp-test git:
+        commands:
+        - /usr/bin/env sh .sqa/script.snappy-brass-coral.sh
+        container: qc.acc_blurry-ecru-shrew
+  QC.Doc:
+    repos:
+      gitlab.com/decube83/sqaas-cpp-test find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.woolly-olive-affenpinscher.sh
+        container: qc.doc_slaphappy-crimson-budgerigar
+      gitlab.com/decube83/sqaas-cpp-test git:
+        commands:
+        - /usr/bin/env sh .sqa/script.skinny-ruby-chicken.sh
+        container: qc.doc_trippy-mustard-vole
+      gitlab.com/decube83/sqaas-cpp-test markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.sickly-chestnut-capybara.sh
+        container: qc.doc_cheeky-razzmatazz-bloodhound
+  QC.Lic:
+    repos:
+      gitlab.com/decube83/sqaas-cpp-test licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.flaky-persimmon-terrier.sh
+        container: qc.lic_boozy-white-eleuth
+  QC.Sty:
+    repos:
+      gitlab.com/decube83/sqaas-cpp-test oclint:
+        commands:
+        - /usr/bin/env sh .sqa/script.tacky-lime-mongoose.sh
+        container: qc.sty_wheezy-cobalt-rattlesnake
+  QC.Ver:
+    repos:
+      gitlab.com/decube83/sqaas-cpp-test get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.boozy-magnolia-lionfish.sh
+        container: qc.ver_woolly-heliotrope-tapir
+timeout: 5400
