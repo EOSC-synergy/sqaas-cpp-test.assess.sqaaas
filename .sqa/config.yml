@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-viridian-rattlesnake.sh
-        container: qc.acc_wiggy-linen-moth
+        - /usr/bin/env sh .sqa/script.sunny-indigo-lizard.sh
+        container: qc.acc_nerdy-azure-wildebeest
   QC.Doc:
     repos:
       gitlab.com/decube83/sqaas-cpp-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-wheat-bear.sh
-        container: qc.doc_ugly-smalt-boar
+        - /usr/bin/env sh .sqa/script.snappy-tan-hyena.sh
+        container: qc.doc_thirsty-fuchsia-spider
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-silver-meerkat.sh
-        container: qc.doc_stinky-cerise-zebu
+        - /usr/bin/env sh .sqa/script.squirrely-pumpkin-husky.sh
+        container: qc.doc_smelly-maroon-cougar
       gitlab.com/decube83/sqaas-cpp-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-wheat-owl.sh
-        container: qc.doc_squirrely-asparagus-tapir
+        - /usr/bin/env sh .sqa/script.lanky-magenta-gorilla.sh
+        container: qc.doc_sloppy-smalt-barracuda
   QC.Lic:
     repos:
       gitlab.com/decube83/sqaas-cpp-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-copper-panda.sh
-        container: qc.lic_pokey-bronze-skunk
+        - /usr/bin/env sh .sqa/script.homey-orange-discus.sh
+        container: qc.lic_queasy-maroon-moose
   QC.Sty:
     repos:
       gitlab.com/decube83/sqaas-cpp-test oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-russet-gorilla.sh
-        container: qc.sty_goopy-orchid-mongoose
+        - /usr/bin/env sh .sqa/script.pokey-emerald-cockroach.sh
+        container: qc.sty_snippy-apricot-duck
   QC.Ver:
     repos:
       gitlab.com/decube83/sqaas-cpp-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-brown-rottweiler.sh
-        container: qc.ver_woolly-magenta-forest
+        - /usr/bin/env sh .sqa/script.greasy-plum-discus.sh
+        container: qc.ver_scaly-jade-hamster
 timeout: 5400
