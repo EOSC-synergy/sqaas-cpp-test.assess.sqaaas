@@ -15,54 +15,38 @@ sqa_criteria:
     repos:
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-indigo-booby.sh
-        container: qc.acc_pretty-wheat-camel
+        - /usr/bin/env sh .sqa/script.slimy-viridian-rattlesnake.sh
+        container: qc.acc_wiggy-linen-moth
   QC.Doc:
     repos:
       gitlab.com/decube83/sqaas-cpp-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-cinnamon-bat.sh
-        container: qc.doc_slaphappy-cyan-rattlesnake
+        - /usr/bin/env sh .sqa/script.sloppy-wheat-bear.sh
+        container: qc.doc_ugly-smalt-boar
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-chocolate-peccary.sh
-        container: qc.doc_dorky-grey-spoonbill
+        - /usr/bin/env sh .sqa/script.hasty-silver-meerkat.sh
+        container: qc.doc_stinky-cerise-zebu
       gitlab.com/decube83/sqaas-cpp-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-olivine-buzzard.sh
-        container: qc.doc_paltry-mauve-gopher
+        - /usr/bin/env sh .sqa/script.droopy-wheat-owl.sh
+        container: qc.doc_squirrely-asparagus-tapir
   QC.Lic:
     repos:
       gitlab.com/decube83/sqaas-cpp-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-platinum-barnacle.sh
-        container: qc.lic_randy-lime-gecko
-  QC.Sec:
-    repos:
-      gitlab.com/decube83/sqaas-cpp-test bandit:
-        commands:
-        - /usr/bin/env sh .sqa/script.shaggy-apricot-woodlouse.sh
-        container: qc.sec_queasy-cerise-markhor
+        - /usr/bin/env sh .sqa/script.lanky-copper-panda.sh
+        container: qc.lic_pokey-bronze-skunk
   QC.Sty:
     repos:
-      gitlab.com/decube83/sqaas-cpp-test flake8:
-        commands:
-        - /usr/bin/env sh .sqa/script.snappy-gold-wolf.sh
-        container: qc.sty_scanty-olivine-hedgehog
       gitlab.com/decube83/sqaas-cpp-test oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-seashell-havanese.sh
-        container: qc.sty_seedy-maroon-ant
-  QC.Uni:
-    repos:
-      gitlab.com/decube83/sqaas-cpp-test pytest:
-        commands:
-        - /usr/bin/env sh .sqa/script.muzzy-periwinkle-toucan.sh
-        container: qc.uni_baggy-thistle-emu
+        - /usr/bin/env sh .sqa/script.skinny-russet-gorilla.sh
+        container: qc.sty_goopy-orchid-mongoose
   QC.Ver:
     repos:
       gitlab.com/decube83/sqaas-cpp-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-mauve-elephant.sh
-        container: qc.ver_tasty-sapphire-wrasse
+        - /usr/bin/env sh .sqa/script.gloppy-brown-rottweiler.sh
+        container: qc.ver_woolly-magenta-forest
 timeout: 5400

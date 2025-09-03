@@ -1,5 +1,5 @@
 services:
-  qc.acc_pretty-wheat-camel:
+  qc.acc_wiggy-linen-moth:
     command: sleep 6000000
     image: bitnami/git:2.34.1
     volumes:
@@ -7,15 +7,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.doc_dorky-grey-spoonbill:
-    command: sleep 6000000
-    image: bitnami/git:2.34.1
-    volumes:
-    - source: ./
-      target: /sqaaas-build
-      type: bind
-    working_dir: /sqaaas-build
-  qc.doc_paltry-mauve-gopher:
+  qc.doc_squirrely-asparagus-tapir:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Doc/markdownlint
       dockerfile: Dockerfile
@@ -25,7 +17,15 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.doc_slaphappy-cyan-rattlesnake:
+  qc.doc_stinky-cerise-zebu:
+    command: sleep 6000000
+    image: bitnami/git:2.34.1
+    volumes:
+    - source: ./
+      target: /sqaaas-build
+      type: bind
+    working_dir: /sqaaas-build
+  qc.doc_ugly-smalt-boar:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Doc
       dockerfile: Dockerfile
@@ -35,7 +35,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.lic_randy-lime-gecko:
+  qc.lic_pokey-bronze-skunk:
     command: sleep 6000000
     image: eoscsynergy/sqaaas-licensee:9.17.0
     volumes:
@@ -43,25 +43,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.sec_queasy-cerise-markhor:
-    build:
-      context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sec/bandit
-      dockerfile: Dockerfile
-    command: sleep 6000000
-    volumes:
-    - source: ./
-      target: /sqaaas-build
-      type: bind
-    working_dir: /sqaaas-build
-  qc.sty_scanty-olivine-hedgehog:
-    command: sleep 6000000
-    image: pipelinecomponents/flake8:0.19.0
-    volumes:
-    - source: ./
-      target: /sqaaas-build
-      type: bind
-    working_dir: /sqaaas-build
-  qc.sty_seedy-maroon-ant:
+  qc.sty_goopy-orchid-mongoose:
     command: sleep 6000000
     image: drakorgaur/oclint:3077181575
     volumes:
@@ -69,15 +51,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.uni_baggy-thistle-emu:
-    command: sleep 6000000
-    image: eoscsynergy/sqaaas-pytest:7.1.3-alpha
-    volumes:
-    - source: ./
-      target: /sqaaas-build
-      type: bind
-    working_dir: /sqaaas-build
-  qc.ver_tasty-sapphire-wrasse:
+  qc.ver_woolly-magenta-forest:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Ver
       dockerfile: Dockerfile
