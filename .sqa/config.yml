@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-indigo-lizard.sh
-        container: qc.acc_nerdy-azure-wildebeest
+        - /usr/bin/env sh .sqa/script.stinky-pear-tetra.sh
+        container: qc.acc_pokey-seashell-jellyfish
   QC.Doc:
     repos:
       gitlab.com/decube83/sqaas-cpp-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-tan-hyena.sh
-        container: qc.doc_thirsty-fuchsia-spider
+        - /usr/bin/env sh .sqa/script.fuzzy-white-dolphin.sh
+        container: qc.doc_lovely-zucchini-dachshund
       gitlab.com/decube83/sqaas-cpp-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-pumpkin-husky.sh
-        container: qc.doc_smelly-maroon-cougar
+        - /usr/bin/env sh .sqa/script.nippy-malachite-mau.sh
+        container: qc.doc_crappy-orchid-hyena
       gitlab.com/decube83/sqaas-cpp-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-magenta-gorilla.sh
-        container: qc.doc_sloppy-smalt-barracuda
+        - /usr/bin/env sh .sqa/script.dorky-carmine-dragon.sh
+        container: qc.doc_tasty-auburn-wasp
   QC.Lic:
     repos:
       gitlab.com/decube83/sqaas-cpp-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-orange-discus.sh
-        container: qc.lic_queasy-maroon-moose
+        - /usr/bin/env sh .sqa/script.gimpy-jade-termite.sh
+        container: qc.lic_grumpy-asparagus-hippopotamus
   QC.Sty:
     repos:
       gitlab.com/decube83/sqaas-cpp-test oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-emerald-cockroach.sh
-        container: qc.sty_snippy-apricot-duck
+        - /usr/bin/env sh .sqa/script.ready-myrtle-barb.sh
+        container: qc.sty_pretty-cardinal-chinook
   QC.Ver:
     repos:
       gitlab.com/decube83/sqaas-cpp-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-plum-discus.sh
-        container: qc.ver_scaly-jade-hamster
+        - /usr/bin/env sh .sqa/script.gamy-carmine-cat.sh
+        container: qc.ver_sloppy-chestnut-fowl
 timeout: 5400
